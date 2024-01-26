@@ -9,10 +9,10 @@ require('./config/db');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// app.use(cors({
+//   origin: 'https://task-management-uafi.vercel.app/',
+// }));
 app.use(cors({ origin: '*' }));
-app.use(cors({
-  origin: 'https://task-management-uafi.vercel.app/',
-}));
 app.use(express.json());
 app.use(bodyParser.json());
 
