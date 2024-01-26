@@ -1,7 +1,7 @@
 import axios from 'axios';
 import Cookies from "js-cookie";
 
-const API_URL = '';
+const API_URL = 'https://task-management-76qjdye48-sf404.vercel.app/';
 
 const api = axios.create({
   baseURL: API_URL,
