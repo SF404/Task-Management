@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(cors({
-  origin: ['https://task-management-hwvx4n1bc-sf404.vercel.app', 'https://task-management-uafi-avu37k24g-sf404.vercel.app'],
+  origin: 'https://task-management-uafi-avu37k24g-sf404.vercel.app',
 }));
 app.use(express.json());
 app.use(bodyParser.json());
